@@ -1,8 +1,8 @@
 const module = {
     ingles: {
-        flags: "url(./img/320px-Flag_of_the_United_States.svg.png)",
+        flags: "url(./public/img/320px-Flag_of_the_United_States.svg.png)",
         info: {
-            image: "url(./img/fotoperfil.jpg)",
+            image: "url(./public/img/fotoperfil.jpg)",
             name: "Caio César",
             profission: "Frontend Developer",
             website: "CaioCesarP.website",
@@ -34,9 +34,9 @@ const module = {
         },
     },
     portugues: {
-        flags: "url(./img/Flag_of_Brazil.svg.png)",
+        flags: "url(./public/img/Flag_of_Brazil.svg.png)",
         info: {
-            image: "url(./img/fotoperfil.jpg)",
+            image: "url(./public/img/fotoperfil.jpg)",
             name: "Caio César",
             profission: "Desenvolvedor Front-end",
             website: "CaioCesarP.website",

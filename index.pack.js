@@ -568,7 +568,7 @@ exports.default = Flags;
 
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
 
 var _react = __webpack_require__(0);
@@ -578,29 +578,29 @@ var _react2 = _interopRequireDefault(_react);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Footer = function Footer() {
-    var spotify = "https://open.spotify.com/playlist/2cfUZmS1eRVQh95NgG8jow?si=d2fbe9ee2b9d42f3";
-    var linkedin = "https://www.linkedin.com/in/profile-caio-c%C3%A9sar-link/";
-    var github = "https://github.com/CaioCesarP";
+  var spotify = "https://open.spotify.com/playlist/2cfUZmS1eRVQh95NgG8jow?si=d2fbe9ee2b9d42f3";
+  var linkedin = "https://www.linkedin.com/in/profile-caio-c%C3%A9sar-link/";
+  var github = "https://github.com/CaioCesarP";
 
-    return _react2.default.createElement(
-        "footer",
-        null,
-        _react2.default.createElement(
-            "a",
-            { href: spotify },
-            _react2.default.createElement("i", { className: "fa-brands fa-spotify" })
-        ),
-        _react2.default.createElement(
-            "a",
-            { href: linkedin },
-            _react2.default.createElement("i", { className: "fa-brands fa-linkedin" })
-        ),
-        _react2.default.createElement(
-            "a",
-            { href: github },
-            _react2.default.createElement("i", { className: "fa-brands fa-github" })
-        )
-    );
+  return _react2.default.createElement(
+    "footer",
+    null,
+    _react2.default.createElement(
+      "a",
+      { href: spotify, target: "_blank" },
+      _react2.default.createElement("i", { className: "fa-brands fa-spotify" })
+    ),
+    _react2.default.createElement(
+      "a",
+      { href: linkedin, target: "_blank" },
+      _react2.default.createElement("i", { className: "fa-brands fa-linkedin" })
+    ),
+    _react2.default.createElement(
+      "a",
+      { href: github, target: "_blank" },
+      _react2.default.createElement("i", { className: "fa-brands fa-github" })
+    )
+  );
 };
 
 exports.default = Footer;
@@ -719,9 +719,9 @@ Object.defineProperty(exports, "__esModule", {
 });
 var _module = {
     ingles: {
-        flags: "url(./img/320px-Flag_of_the_United_States.svg.png)",
+        flags: "url(./public/img/320px-Flag_of_the_United_States.svg.png)",
         info: {
-            image: "url(./img/fotoperfil.jpg)",
+            image: "url(./public/img/fotoperfil.jpg)",
             name: "Caio César",
             profission: "Frontend Developer",
             website: "CaioCesarP.website",
@@ -753,9 +753,9 @@ var _module = {
         }
     },
     portugues: {
-        flags: "url(./img/Flag_of_Brazil.svg.png)",
+        flags: "url(./public/img/Flag_of_Brazil.svg.png)",
         info: {
-            image: "url(./img/fotoperfil.jpg)",
+            image: "url(./public/img/fotoperfil.jpg)",
             name: "Caio César",
             profission: "Desenvolvedor Front-end",
             website: "CaioCesarP.website",
